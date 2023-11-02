@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;1,300&family=Montserrat:wght@100&family=Send+Flowers&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1> Angelo Marangon <span>Freelancer</span></h1>
+    </header>
+
+<!--barra de navegacion-->
+    <section>
+        <div class="nav-bg">
+            <nav class="navegacion-principal contenedor">
+                <a href="#">Inicio</a>
+                <a href="#">Sobre mi</a>
+                <a href="#">Clientes</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </div>
+    </section>
+<!-- fin barra de navegacion-->
+
+    <section class="hero">
+        <div class="contenido-hero">
+                <h2>Disegno y Desarrollo Web</h2>
+            
+            <p>
+                <img src="img/calendario.svg">
+            </p>
+            <a class="boton" href="#">Contactar</a>
+        </div>
+    </section>
+
+    <main class="contenedor sombra">
+        <h2>Mis Servicios</h2>
+        <div class="servicios">
+            <!--seccion 1-->
+            <section class="servicio">
+                <h3>Disegno Web</h3>
+                <div class="iconos">
+                    <img src="img/lapiz-pincel.svg">
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro rerum nemo fuga aspernatur accusamus a eveniet modi voluptates cumque distinctio labore, perferendis, illum nam, quis quam non. Iusto, commodi tempore.</p>
+            </section>
+            <!--seccion 2-->
+            <section class="servicio">
+                <h3>Aplicaciones Web</h3>
+                <div class="iconos">
+                    <img src="img/android.svg">
+                    <img src="img/apple.svg">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, dolores voluptate! Nesciunt rerum est dignissimos asperiores magnam atque unde voluptates consectetur beatae, suscipit nihil, earum soluta exercitationem dolorem perspiciatis natus!</p>
+            </section>
+            <!--seccion 3-->
+            <section class="servicio">
+                <h3>E-Commerce</h3>
+                <div class="iconos">
+                    <img src="img/e-commerce.svg">
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sed harum suscipit, et aperiam voluptatum ratione! Vero distinctio mollitia optio. Quibusdam sunt amet eum delectus voluptatum magni expedita! Est, debitis.</p>
+            </section>
+        </div>
+
+        <!--formulario de contacto-->
+        <section>
+            <h2>Contacto</h2>
+
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contactanos llenando todos los campos</legend>
+
+                    <div class="contenedor-campos">
+                        <div class="campos">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu nombre">
+                        </div>
+
+                        <div class="campos">
+                            <label>Telefono</label>
+                            <input class="input-text" type="tel" placeholder="Tu telefono">
+                        </div>
+
+                        <div class="campos">
+                            <label>Correo</label>
+                            <input class="input-text" type="Email" placeholder="Tu Email">
+                        </div>
+
+                        <div class="campos">
+                            <label>Mensaje</label>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>>
+                        </div>                    
+                    </div>
+
+                    <div class="alinear-derecha flex">
+                            <input type="submit" value="enviar" class="boton w-100">
+                        </div>
+                        <!--cierre contenedor campos-->
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados Angelo Marangon &copy; 2023</p>
+    </footer>
+
+</body>
+</html>
